@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* ou flex-start para alinhar no início da página */
+}
+
+.card_container {
+    margin-top: 20vh;
+    width: 80vw;
+}
+
+.imagem_card {
+    width: 60vw;
+}
+
+.titulo_card {
+    font-size: 2em;
+    font-family: var(--fonte-principal);
+    color: white;
+    font-weight: bold;
+}
+
+.texto_card {
+    font-family: var(--fonte-principal);
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+}
