@@ -1,16 +1,22 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* ou flex-start para alinhar no início da página */
+    margin-top: 20vh;    
+    border-bottom: 1px solid white;
 }
 
 .card_container {
-    margin-top: 20vh;
-    width: 80vw;
+    margin-bottom: 20vh;
+    padding: 0 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
 }
 
 .imagem_card {
     width: 60vw;
+    height: 60vw;
+    border-radius: 20px ;
 }
 
 .titulo_card {
@@ -18,11 +24,14 @@
     font-family: var(--fonte-principal);
     color: white;
     font-weight: bold;
+    text-align: center;
+    
 }
 
 .texto_card {
     font-family: var(--fonte-principal);
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 300;
+    text-align: center;
 }
