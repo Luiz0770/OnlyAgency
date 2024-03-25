@@ -110,13 +110,18 @@
     </section>
 
     <section class="formulario">
-        <form action="/submit_email" method="post">
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <input type="submit" value="Enviar">
-          </form>
-          <p>Agradecemos a sua inscrição!</p>
+        <h2 class="form_titulo">Envie seu email para ficar por dentro de noticias e recrutamentos!</h2>
+        <form action="/submit_email" method="post" class="form_container_notificacao">
+            <div>
+                <label for="email" class="form_text">Email:</label><br>
+                <input type="email" id="email" name="email" class="form_input" placeholder="email@provedor.com"
+                    required><br>
+            </div>
+            <input type="submit" value="Enviar" class="form_botao_notificacao">
+        </form>
+        <p class="form_text">Agradecemos a sua inscrição!</p>
     </section>
+
 </body>
 
 </html>
