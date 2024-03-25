@@ -37,7 +37,8 @@
     <section class="conteudo_principal">
         <div class="itens_principais">
             <h1 class="titulo_principal">GRANDES METAS</h1>
-            <h3 class="subtitulo_principal">RESULTADOS <span class="destaque_titulo_principal">EXTRAORDINARIOS</span></h3>
+            <h3 class="subtitulo_principal">RESULTADOS <span class="destaque_titulo_principal">EXTRAORDINARIOS</span>
+            </h3>
 
             <a href="#" class="botao_principal">
                 WHATSAPP
@@ -53,35 +54,68 @@
         <div class="card_container">
             <img src="./assets/imagem2.jpg" alt="Pessoas falando sobre marketing digital" class="imagem_card">
             <h2 class="titulo_card">MARKETING E <span class="destaque">VENDAS</span></h2>
-            <p class="texto_card">Depois de aumentar seus seguidores com ideias de conteúdo específicas, ajudaremos você a transformá-los em fãs pagantes com técnicas avançadas de marketing e vendas.</p>
+            <p class="texto_card">Depois de aumentar seus seguidores com ideias de conteúdo específicas, ajudaremos você
+                a transformá-los em fãs pagantes com técnicas avançadas de marketing e vendas.</p>
         </div>
 
         <div class="card_container">
             <h2 class="titulo_card">SEGURANÇA E <span class="destaque">PRIVACIDADE</span></h2>
             <img src="./assets/imagem1.jpg" alt="Pessoas falando sobre marketing digital" class="imagem_card">
-            <p class="texto_card">A OnlyAgency tem dever de preservar sua imagem e o seu conteudo. Contamos com especialistas em nossa equipe em toda e qualquer area, e garantimos a sua segurança e garantia por meio de nossos contratos e propriamente, a relação com a agência.</p>
+            <p class="texto_card">A OnlyAgency tem dever de preservar sua imagem e o seu conteudo. Contamos com
+                especialistas em nossa equipe em toda e qualquer area, e garantimos a sua segurança e garantia por meio
+                de nossos contratos e propriamente, a relação com a agência.</p>
         </div>
-        
+
         <div class="card_container">
-            <h2 class="titulo_card">AUMENTE SUA RECEITA E PRODUTIVIDADE COM <span class="destaque">MENOS TRABALHO</span></h2>
+            <h2 class="titulo_card">AUMENTE SUA RECEITA E PRODUTIVIDADE COM <span class="destaque">MENOS TRABALHO</span>
+            </h2>
             <img src="./assets/imagem1.jpg" alt="Pessoas falando sobre marketing digital" class="imagem_card">
             <h2 class="titulo_card">CRIAÇÃO DE <span class="destaque">CONTEÚDO</span></h2>
-            <p class="texto_card">Orientamos você na criação de conteúdo viral que converte visitantes em seguidores e depois em fãs. Conteúdo de qualidade e estratégia de acordo com a sua personalidade.</p>
+            <p class="texto_card">Orientamos você na criação de conteúdo viral que converte visitantes em seguidores e
+                depois em fãs. Conteúdo de qualidade e estratégia de acordo com a sua personalidade.</p>
         </div>
     </section>
 
-    <section>
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-            <label for="name">Nome *</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="subject">Assunto</label><br>
-            <input type="text" id="subject" name="subject"><br>
-            <label for="message">Mensagem</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-            <input type="submit" value="Enviar">
+    <section class="formulario">
+        <form class="form_container" action="mailto:ramosluizfelipe104@gmail.com" method="post" enctype="text/plain">
+            <!-- Nome -->
+            <div>
+                <label for="name" class="form_text">Nome *</label><br>
+                <input type="text" id="name" name="name" class="form_input" placeholder="Insira o seu nome"
+                    required><br>
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email" class="form_text">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Insira o seu email" class="form_input"><br>
+            </div>
+
+            <!-- Assunto -->
+            <div>
+                <label for="subject" class="form_text">Assunto</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Insira o assunto" class="form_input"><br>
+            </div>
+
+            <!-- TextArea -->
+            <div>
+                <label for="message" class="form_text">Mensagem</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" class="form_input form_textarea"
+                    placeholder="Digite sua mensagem aqui" required></textarea><br>
+            </div>
+
+            <!-- Enviar -->
+            <input type="submit" value="Enviar" class="form_botao">
         </form>
+    </section>
+
+    <section class="formulario">
+        <form action="/submit_email" method="post">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <input type="submit" value="Enviar">
+          </form>
+          <p>Agradecemos a sua inscrição!</p>
     </section>
 </body>
 

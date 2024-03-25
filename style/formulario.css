@@ -1,0 +1,44 @@
+.formulario {
+    border-bottom: 1px solid white;
+}
+
+.form_container {
+    margin: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.form_text {
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+}
+
+.form_input{
+    margin-top: 5px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 1.5em;
+    width: 80vw;
+    color: white;
+}
+
+.form_input::placeholder {
+    font-family: var(--fonte-principal);
+}
+
+.form_textarea{
+    height: 10em;
+}
+
+.form_botao {
+    color: white;
+    background-color: var(--cor-secundaria);
+    font-weight: bold;
+    padding: 1em;
+    width: 90vw;
+    border: 0px;
+}
