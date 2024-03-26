@@ -24,8 +24,8 @@
     background: transparent;
     border: 1px solid white;
     padding: 1.5em;
-    width: 80vw;
     color: white;
+    width: 80vw;
 }
 
 .form_input::placeholder {
@@ -43,8 +43,8 @@
     font-family: var(--fonte-principal);
     font-size: 1em;
     padding: 1em;
-    width: 90vw;
     border: 0px;
+    width: 50vw;
 }
 
 /* Formulario de Notificacoes */

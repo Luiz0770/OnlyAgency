@@ -12,15 +12,19 @@
     --fonte-principal: "Inter"
 }
 
+.destaque {
+    color: var(--cor-secundaria);
+}
+
 body {
     background: url(./assets/background-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.destaque {
-    color: var(--cor-secundaria);
-}
+
+
+
 
 
 
