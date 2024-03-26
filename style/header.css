@@ -43,19 +43,39 @@
 .lista_menu {
     display: none;
     width: 60vw;
+}
 
-    .lista_menu_titulo,
-    .lista_menu_item {
-        padding: 1em;
-        background-color: #161616;
-        font-family: var(--fonte-principal);
-        font-size: 1em;
+.lista_menu_titulo,
+.lista_menu_item {
+    padding: 1em;
+    background-color: #161616;
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+}
+
+.link_lista_menu {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.opcoes_menu{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .conteiner_rotulo{
+        display: none;
     }
 
-    .link_lista_menu {
-        color: white;
-        text-decoration: none;
-        font-weight: 300;
+    .opcoes_menu{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 5em;
+        font-family: var(--fonte-principal);
+        font-size: 1em;
     }
 }
 

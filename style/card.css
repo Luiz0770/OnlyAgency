@@ -35,3 +35,11 @@
     font-weight: 300;
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .imagem_card {
+        width: 30vw;
+        height: 30vw;
+        border-radius: 20px ;
+    }
+}

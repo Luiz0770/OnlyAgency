@@ -1,52 +1,51 @@
-.itens_principais{
+.itens_principais {
     margin-top: 30%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .titulo_principal,
-.subtitulo_principal
-{
+.subtitulo_principal {
     font-family: var(--fonte-principal);
     font-weight: bold;
     color: white;
 }
 
-.titulo_principal{
+.titulo_principal {
     font-size: 3em;
 }
 
-.subtitulo_principal{
+.subtitulo_principal {
     font-size: 1em;
 }
 
-.destaque_titulo_principal{
+.destaque_titulo_principal {
     color: var(--cor-secundaria);
 }
 
-.botao_principal{
-    /* display: flex;
+.botao_principal {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em; */
+    gap: 1em;
 
     width: 20vw;
     padding: 1em 4em;
     background: var(--cor-secundaria);
     border-radius: 18px;
 
-    text-align: center;
+
     text-decoration: none;
     color: white;
     font-family: var(--fonte-principal);
     font-weight: bold;
 
-    background-image: url(../assets/IconWhats.svg);
+    /* background-image: url(../assets/IconWhats.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-position-x: 1.5rem;
+    background-position-x: 1.5rem; */
 }
 
 
@@ -56,20 +55,20 @@
     margin-top: 20vh;
 }
 
-.imagem_conteudo_principal{
+.imagem_conteudo_principal {
     padding: 1em;
     width: 512px;
 }
 
 /* Sobre */
 
-.titulo_principal_sobre{
+.titulo_principal_sobre {
     font-size: 3.5em;
     width: 60vw;
     margin-bottom: 5vh;
 }
 
-.texto_principal{
+.texto_principal {
     text-align: start;
     color: white;
     font-family: var(--fonte-principal);
@@ -88,13 +87,31 @@
     padding: 5em 3em;
 }
 
-.sobre_titulo{
+.sobre_titulo {
     font-weight: bold;
     font-size: 2em;
 }
 
-.botao_container_sobre{
+.botao_container_sobre {
     text-align: center;
     padding: 1em 0 5em 0;
     border-bottom: 1px solid white;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .titulo_principal {
+        font-size: 7em;
+        width: 60%;
+    }
+
+    .subtitulo_principal {
+        font-size: 2em;
+    }
+
+    .botao_principal{
+        padding: 1em 3em;
+        font-size: 2em;
+    }
 }
