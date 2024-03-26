@@ -2,6 +2,7 @@
 @import url(style/priciapal.css);
 @import url(style/card.css);
 @import url(style/formulario.css);
+@import url(style/footer.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -12,7 +13,7 @@
 }
 
 body {
-    background: url(./assets/backgroud.png);
+    background: url(./assets/background-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }

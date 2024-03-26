@@ -38,10 +38,11 @@
     font-weight: bold;
 }
 
+
 .imagem_princial {
-    margin-top: 25vh;
     display: flex;
     justify-content: center;
+    margin-top: 20vh;
 }
 
 .imagem_conteudo_principal{
@@ -49,4 +50,40 @@
     height: 429px;
 }
 
+/* Sobre */
 
+.titulo_principal_sobre{
+    font-size: 3.5em;
+    width: 60vw;
+    margin-bottom: 15vh;
+}
+
+.texto_principal{
+    padding: 0 1em;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+}
+
+.conteudo_sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    color: white;
+    font-family: var(--fonte-principal);
+    padding: 5em 1em;
+}
+
+.sobre_titulo{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.botao_container_sobre{
+    text-align: center;
+    padding: 1em 0 5em 0;
+    border-bottom: 1px solid white;
+}
