@@ -3,6 +3,8 @@
 @import url(style/card.css);
 @import url(style/formulario.css);
 @import url(style/footer.css);
+@import url(style/descrisao.css);
+@import url(style/instrucao.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -12,8 +14,14 @@
     --fonte-principal: "Inter"
 }
 
-.destaque {
-    color: var(--cor-secundaria);
+.destaque{
+    color: #1B91FF;
+}
+
+.descrisao,
+.card_desktop,
+.instrucao{
+    display: none;
 }
 
 body {
@@ -22,11 +30,28 @@ body {
     background-size: cover;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     body {
-        background: url(./assets/Tablet-Responsive.png);
+        background-image: url(./assets/background-tablet.svg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    body {
+        background-image: url(./assets/background-desktop.png);
+        background-repeat: no-repeat;
+    }
+
+    .card{
+        display: none;
+    }
+
+    .descrisao,
+    .card_desktop,
+    .instrucao{
+        display: block;
     }
 }
 
