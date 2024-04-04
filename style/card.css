@@ -58,8 +58,9 @@
 
     .imagem_card {
         width: 60vw;
-        height: 40vw;
+        height: 45vw;
         border-radius: 20px;
+        box-shadow: 1px 1px 200px rgb(35, 72, 139)
     }
 }
 
@@ -70,25 +71,29 @@
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
-        padding: 0 0 10%;
+        padding: 0 0 15%;
     }
 
     .imagem_card {
-        width: 40vw;
-        height: 35vw;
-        text-align: center;
+        width: 35vw;
+        height: 25vw;
+        box-shadow: 1px 1px 200px rgb(35, 72, 139)
     }
 
     .card_desktop_textos{
         display: flex;
         flex-direction: column;
         gap: 1.5em;
-        padding: 0 20% ;
+        padding: 0 15% ;
     }
 
     .card_desktop_imagem{
         display: flex;
         justify-content: center;
+    }
+
+    .titulo_card{
+        font-size: 4em;
     }
 
     .titulo_card_direita,
@@ -99,16 +104,5 @@
     .titulo_card_esquerda,
     .texto_card_esquerda{
         text-align: start;
-    }
-
-    /* Cards Final */
-    .imagem_card_final{
-        width: 40%;
-        height: 30%;
-        border-radius: 20px;
-    }
-
-    .card_final{
-        padding: 0 10%;
     }
 }

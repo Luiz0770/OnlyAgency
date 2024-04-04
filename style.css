@@ -44,6 +44,11 @@ body {
         background-repeat: no-repeat;
     }
 
+    .body_sobre{
+        background-image: url(./assets/background-desktop-sobre.png);
+        background-repeat: no-repeat;
+    }
+
     .card{
         display: none;
     }

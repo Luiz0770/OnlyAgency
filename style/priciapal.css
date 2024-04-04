@@ -119,11 +119,16 @@
     }
 
     .botao_principal {
-        padding: 1em 3em;
-        font-size: 2em;
+        margin-top: 2em;
+        padding: 1em 2.5em;
+        font-size: 1.5em;
     }
 
     /* Sobre */
+
+    .titulo_principal_sobre{
+        padding: 0 0 0.5em;
+    }
 
     .texto_principal {
         font-size: 2em;
@@ -169,4 +174,34 @@
         width: auto;
         padding: 0.5em 2em;
     }
+
+    /* Sobre */
+
+    .conteudo_principal_sobre{
+        margin: 20vh 0 15vh;
+        text-align: center;
+    }
+
+    .titulo_principal_sobre{
+        font-size: 5em 0;
+    }
+    
+    .texto_principal {
+        font-size: 1.5em;
+    }
+    
+    .conteudo_sobre {
+        gap: 5vh;
+        padding: 5em 20%;
+    }
+    
+    .sobre_titulo {
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    
+    .sobre_text {
+        font-size: 2em;
+    }
+
 }
